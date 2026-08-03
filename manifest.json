@@ -1,0 +1,22 @@
+{
+  "short_name": "Inventario CORPOELEC",
+  "name": "Inventario CORPOELEC - Gestión Nacional de Materiales",
+  "icons": [
+    {
+      "src": "/assets/logo-corpoelec.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/logo-corpoelec.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "theme_color": "#005696",
+  "display": "standalone",
+  "orientation": "portrait",
+  "description": "Sistema PWA de Gestión Nacional de Inventario de Materiales Eléctricos para CORPOELEC"
+}
