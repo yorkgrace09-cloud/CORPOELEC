@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="assets/corpoelec-icon.png" />
+    <link rel="apple-touch-icon" href="assets/corpoelec-icon.png" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="PWA Oficial de Gestión Nacional de Inventario de Materiales Eléctricos de CORPOELEC" />
+    <title>Inventario CORPOELEC</title>
+    <script type="module" crossorigin src="/CORPOELEC/assets/index-BmZgSYrL.js"></script>
+    <link rel="modulepreload" crossorigin href="/CORPOELEC/assets/rolldown-runtime-hePW80VL.js">
+    <link rel="modulepreload" crossorigin href="/CORPOELEC/assets/vendor-CE1TJPOd.js">
+    <link rel="modulepreload" crossorigin href="/CORPOELEC/assets/vendor-charts-BHNLmLAA.js">
+    <link rel="modulepreload" crossorigin href="/CORPOELEC/assets/vendor-react-BonRO59N.js">
+    <link rel="modulepreload" crossorigin href="/CORPOELEC/assets/vendor-excel-CHdbMA13.js">
+    <link rel="modulepreload" crossorigin href="/CORPOELEC/assets/vendor-pdf-Cf75zDHb.js">
+    <link rel="stylesheet" crossorigin href="/CORPOELEC/assets/index-BLAE95OL.css">
+  </head>
+  <body class="bg-white text-slate-900 antialiased selection:bg-blue-100 selection:text-[#005696]">
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js').catch(function(err) {
+            console.log('SW registration failed: ', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
